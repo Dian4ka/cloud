@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: fastapi-app
+    env: docker
+    repo: https://github.com/yourusername/your-repo
+    region: oregon
+    plan: free
